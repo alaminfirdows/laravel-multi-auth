@@ -37,7 +37,7 @@ class LaravelMultiAuthServiceProvider extends ServiceProvider
     private function registerInstallCommand()
     {
         $this->app->singleton('command.alaminfirdows.laravel-multi-auth.install', function ($app) {
-            return $app['AlAminFirdows\LaravelMultiAuth\Commands\LaravelMultiAuthInstallCommand'];
+            return $app['AlAminFirdows\LaravelMultiAuth\Commands\MultiAuthInstallCommand'];
         });
 
         $this->commands('command.alaminfirdows.laravel-multi-auth.install');
