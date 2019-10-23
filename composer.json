@@ -1,0 +1,27 @@
+{
+    "name": "alaminfirdows/laravel-multi-auth",
+    "description": "Multi Auth package for Laravel project.",
+    "keywords": ["laravel", "multi-auth", "laravel-multi-auth"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Al-Amin Firdows",
+        "email": "alaminfirdows@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlAminFirdows\\LaravelMultiAuth\\LaravelMultiAuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AlAminFirdows\\LaravelMultiAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
