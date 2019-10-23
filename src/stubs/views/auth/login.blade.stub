@@ -1,4 +1,4 @@
-@extends('layout.{{singularSlug}}.auth')
+@extends('{{singularSlug}}.layout.auth')
 
 @section('content')
 <div class="container">
