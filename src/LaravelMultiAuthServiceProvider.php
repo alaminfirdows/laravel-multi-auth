@@ -1,10 +1,10 @@
 <?php
 
-namespace AlAminFirdows\LaravelLaravelMultiAuth;
+namespace AlAminFirdows\LaravelMultiAuth;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelLaravelMultiAuthServiceProvider extends ServiceProvider
+class LaravelMultiAuthServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
